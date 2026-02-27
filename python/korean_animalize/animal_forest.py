@@ -98,5 +98,5 @@ def korean_decode(korean_word):
 
 if __name__ == '__main__':
 	pitch = 'korean'
-	stringy = korean_decode("안녕하세요 당신의 이름은 무엇입니까")
+	stringy = korean_decode("대학원 수업보다 우리 학생들이 좀 더 창의력이 있는 것 같다구리!")
 	korean_animalize(stringy, pitch)
